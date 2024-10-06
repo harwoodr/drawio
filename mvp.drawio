@@ -43,6 +43,12 @@
         <mxCell id="dM4KhiI33vJd0EmOxdA6-18" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1210" y="790" width="360" height="170" as="geometry" />
         </mxCell>
+        <mxCell id="dM4KhiI33vJd0EmOxdA6-89" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Vhc87LM3Tn9fcRq7plBE-1" target="Vhc87LM3Tn9fcRq7plBE-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dM4KhiI33vJd0EmOxdA6-90" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Vhc87LM3Tn9fcRq7plBE-1" target="Vhc87LM3Tn9fcRq7plBE-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Vhc87LM3Tn9fcRq7plBE-1" value="Permit Holder" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="70" y="360" width="30" height="60" as="geometry" />
         </mxCell>
@@ -80,13 +86,25 @@
           <mxGeometry x="200" y="750" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Vhc87LM3Tn9fcRq7plBE-8" value="Exit Gate Display" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" parent="1" vertex="1">
-          <mxGeometry x="35" y="850" width="120" height="60" as="geometry" />
+          <mxGeometry x="25" y="850" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dM4KhiI33vJd0EmOxdA6-56" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Vhc87LM3Tn9fcRq7plBE-9" target="Vhc87LM3Tn9fcRq7plBE-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Vhc87LM3Tn9fcRq7plBE-9" value="Total cost for session" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcc99;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="350" y="1015" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dM4KhiI33vJd0EmOxdA6-85" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Vhc87LM3Tn9fcRq7plBE-11" target="Vhc87LM3Tn9fcRq7plBE-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dM4KhiI33vJd0EmOxdA6-86" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Vhc87LM3Tn9fcRq7plBE-11" target="Vhc87LM3Tn9fcRq7plBE-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dM4KhiI33vJd0EmOxdA6-87" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Vhc87LM3Tn9fcRq7plBE-11" target="Vhc87LM3Tn9fcRq7plBE-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dM4KhiI33vJd0EmOxdA6-88" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Vhc87LM3Tn9fcRq7plBE-11" target="dM4KhiI33vJd0EmOxdA6-57">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Vhc87LM3Tn9fcRq7plBE-11" value="Visitor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="720" width="30" height="60" as="geometry" />
@@ -235,12 +253,12 @@
           <mxGeometry x="820" y="1000" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Vhc87LM3Tn9fcRq7plBE-10" value="Exit" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" parent="1" vertex="1">
-          <mxGeometry x="490" y="770" width="120" height="60" as="geometry" />
+          <mxGeometry x="480" y="730" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dM4KhiI33vJd0EmOxdA6-58" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="dM4KhiI33vJd0EmOxdA6-57" target="dM4KhiI33vJd0EmOxdA6-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dM4KhiI33vJd0EmOxdA6-57" value="Tap payment card" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+        <mxCell id="dM4KhiI33vJd0EmOxdA6-57" value="Tap payment card or scan QR voucher" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="200" y="850" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dM4KhiI33vJd0EmOxdA6-61" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dM4KhiI33vJd0EmOxdA6-59" target="dM4KhiI33vJd0EmOxdA6-17">
