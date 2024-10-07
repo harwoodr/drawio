@@ -89,40 +89,34 @@
           <mxGeometry x="1800" y="600" width="100" height="200" as="geometry" />
         </mxCell>
         <mxCell id="2MODIx7R60a1VgAi5Oh5-40" value="" style="shape=rect;shadow=0;html=1;direction=west;" vertex="1" parent="1">
-          <mxGeometry x="800" y="40" width="120" height="40" as="geometry" />
+          <mxGeometry x="900" y="440" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2MODIx7R60a1VgAi5Oh5-41" value="" style="shape=rect;shadow=0;html=1;direction=west;" vertex="1" parent="1">
-          <mxGeometry x="1120" y="40" width="120" height="40" as="geometry" />
+          <mxGeometry x="1020" y="440" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2MODIx7R60a1VgAi5Oh5-42" value="" style="shape=rect;shadow=0;html=1;direction=west;" vertex="1" parent="1">
-          <mxGeometry x="1240" y="40" width="120" height="40" as="geometry" />
+          <mxGeometry x="1340" y="440" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2MODIx7R60a1VgAi5Oh5-43" value="" style="shape=rect;shadow=0;html=1;direction=west;" vertex="1" parent="1">
-          <mxGeometry x="1560" y="40" width="120" height="40" as="geometry" />
+          <mxGeometry x="1460" y="440" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2MODIx7R60a1VgAi5Oh5-44" value="" style="shape=rect;shadow=0;html=1;direction=west;" vertex="1" parent="1">
-          <mxGeometry x="1680" y="40" width="120" height="40" as="geometry" />
+          <mxGeometry x="1780" y="440" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2MODIx7R60a1VgAi5Oh5-45" value="" style="shape=rect;shadow=0;html=1;direction=west;" vertex="1" parent="1">
-          <mxGeometry x="1120" y="960" width="120" height="40" as="geometry" />
+          <mxGeometry x="560" y="960" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2MODIx7R60a1VgAi5Oh5-46" value="" style="shape=rect;shadow=0;html=1;direction=west;" vertex="1" parent="1">
-          <mxGeometry x="1240" y="960" width="120" height="40" as="geometry" />
+          <mxGeometry x="440" y="960" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="2MODIx7R60a1VgAi5Oh5-47" value="" style="shape=rect;shadow=0;html=1;direction=west;" vertex="1" parent="1">
-          <mxGeometry x="1560" y="960" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="2MODIx7R60a1VgAi5Oh5-48" value="" style="shape=rect;shadow=0;html=1;direction=west;" vertex="1" parent="1">
-          <mxGeometry x="1680" y="960" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="2MODIx7R60a1VgAi5Oh5-49" value="" style="shape=rect;shadow=0;html=1;direction=west;" vertex="1" parent="1">
-          <mxGeometry x="2000" y="960" width="120" height="40" as="geometry" />
+        <mxCell id="2MODIx7R60a1VgAi5Oh5-47" value="" style="shape=rect;shadow=0;html=1;direction=north;" vertex="1" parent="1">
+          <mxGeometry x="640" y="700" width="40" height="120" as="geometry" />
         </mxCell>
         <mxCell id="2MODIx7R60a1VgAi5Oh5-50" value="Book Case" style="shape=rect;shadow=0;html=1;direction=west;" vertex="1" parent="1">
-          <mxGeometry x="2000" y="40" width="120" height="40" as="geometry" />
+          <mxGeometry x="1900" y="440" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2MODIx7R60a1VgAi5Oh5-51" value="" style="shape=rect;shadow=0;html=1;direction=west;" vertex="1" parent="1">
-          <mxGeometry x="800" y="960" width="120" height="40" as="geometry" />
+          <mxGeometry x="680" y="960" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2MODIx7R60a1VgAi5Oh5-58" value="" style="shape=rect;shadow=0;html=1;direction=west;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="240" y="600" width="200" height="100" as="geometry" />
@@ -136,17 +130,8 @@
         <mxCell id="2MODIx7R60a1VgAi5Oh5-61" value="" style="shape=rect;shadow=0;html=1;direction=west;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="440" y="700" width="200" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="2MODIx7R60a1VgAi5Oh5-62" value="" style="shape=rect;shadow=0;html=1;direction=west;" vertex="1" parent="1">
-          <mxGeometry x="640" y="600" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="2MODIx7R60a1VgAi5Oh5-63" value="" style="shape=rect;shadow=0;html=1;direction=west;" vertex="1" parent="1">
-          <mxGeometry x="640" y="760" width="120" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="2MODIx7R60a1VgAi5Oh5-64" value="" style="shape=rect;shadow=0;html=1;direction=north;" vertex="1" parent="1">
-          <mxGeometry x="640" y="640" width="40" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="2MODIx7R60a1VgAi5Oh5-65" value="" style="shape=rect;shadow=0;html=1;direction=north;" vertex="1" parent="1">
-          <mxGeometry x="240" y="480" width="40" height="120" as="geometry" />
+          <mxGeometry x="640" y="580" width="40" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
