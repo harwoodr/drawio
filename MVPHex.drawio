@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="vmsu6UBPR0Md5zAb4Nx8-29" value="RabbitMQ" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;direction=south;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="600" y="270" width="470" height="180" as="geometry" />
+          <mxGeometry x="1025" y="270" width="470" height="180" as="geometry" />
         </mxCell>
         <mxCell id="vmsu6UBPR0Md5zAb4Nx8-17" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="1010" y="600" width="500" height="440" as="geometry" />
@@ -73,10 +73,10 @@
           <mxGeometry x="1570" y="890" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="vmsu6UBPR0Md5zAb4Nx8-28" value="Validation &lt;br&gt;Request AMQP" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="160" y="450" width="120" height="60" as="geometry" />
+          <mxGeometry x="1055" y="380" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vmsu6UBPR0Md5zAb4Nx8-30" value="Validation&lt;br&gt; Response AMQP" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="310" y="410" width="120" height="60" as="geometry" />
+          <mxGeometry x="1315" y="380" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vmsu6UBPR0Md5zAb4Nx8-45" value="&lt;font style=&quot;font-size: 42px;&quot;&gt;Gate Access Permit Validation Process&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="650" y="910" width="360" height="110" as="geometry" />
@@ -124,13 +124,86 @@
           <mxGeometry y="80" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vmsu6UBPR0Md5zAb4Nx8-87" value="Gate Entry &lt;br&gt;Request AQMP" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="60" y="260" width="120" height="60" as="geometry" />
+          <mxGeometry x="1075" y="280" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vmsu6UBPR0Md5zAb4Nx8-88" value="Gate Entry &lt;br&gt;Response AQMP" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="260" y="260" width="120" height="60" as="geometry" />
+          <mxGeometry x="1345" y="280" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vmsu6UBPR0Md5zAb4Nx8-89" value="Gate Controller" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="450" y="220" width="120" height="60" as="geometry" />
+        <mxCell id="vmsu6UBPR0Md5zAb4Nx8-95" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="160" y="130" width="500" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="vmsu6UBPR0Md5zAb4Nx8-96" value="" style="group" vertex="1" connectable="0" parent="vmsu6UBPR0Md5zAb4Nx8-95">
+          <mxGeometry width="500" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="vmsu6UBPR0Md5zAb4Nx8-97" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=hexagon;perimeter=hexagonPerimeter2;arcSize=6;size=0.27;fillColor=none;" vertex="1" parent="vmsu6UBPR0Md5zAb4Nx8-96">
+          <mxGeometry width="500" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="vmsu6UBPR0Md5zAb4Nx8-98" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=hexagon;perimeter=hexagonPerimeter2;arcSize=6;size=0.27;fillColor=none;" vertex="1" parent="vmsu6UBPR0Md5zAb4Nx8-96">
+          <mxGeometry x="80" y="80" width="340" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="vmsu6UBPR0Md5zAb4Nx8-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;curved=1;" edge="1" parent="vmsu6UBPR0Md5zAb4Nx8-96" source="vmsu6UBPR0Md5zAb4Nx8-100" target="vmsu6UBPR0Md5zAb4Nx8-104">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="190" y="180" />
+              <mxPoint x="190" y="282" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vmsu6UBPR0Md5zAb4Nx8-100" value="AMQP Processor" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="vmsu6UBPR0Md5zAb4Nx8-96">
+          <mxGeometry x="60" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vmsu6UBPR0Md5zAb4Nx8-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="vmsu6UBPR0Md5zAb4Nx8-96" source="vmsu6UBPR0Md5zAb4Nx8-102" target="vmsu6UBPR0Md5zAb4Nx8-106">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vmsu6UBPR0Md5zAb4Nx8-102" value="Validation Reqiester" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="vmsu6UBPR0Md5zAb4Nx8-96">
+          <mxGeometry x="320" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vmsu6UBPR0Md5zAb4Nx8-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="vmsu6UBPR0Md5zAb4Nx8-96" source="vmsu6UBPR0Md5zAb4Nx8-104" target="vmsu6UBPR0Md5zAb4Nx8-102">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="282" />
+              <mxPoint x="300" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vmsu6UBPR0Md5zAb4Nx8-104" value="Gate Manager" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="vmsu6UBPR0Md5zAb4Nx8-96">
+          <mxGeometry x="190" y="270" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vmsu6UBPR0Md5zAb4Nx8-105" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;Gate Control&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="vmsu6UBPR0Md5zAb4Nx8-96">
+          <mxGeometry x="220" y="205" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vmsu6UBPR0Md5zAb4Nx8-106" value="AMQP Client" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="vmsu6UBPR0Md5zAb4Nx8-96">
+          <mxGeometry x="380" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vmsu6UBPR0Md5zAb4Nx8-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="vmsu6UBPR0Md5zAb4Nx8-96" source="vmsu6UBPR0Md5zAb4Nx8-109" target="vmsu6UBPR0Md5zAb4Nx8-112">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vmsu6UBPR0Md5zAb4Nx8-109" value="Validation Reqiester" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="vmsu6UBPR0Md5zAb4Nx8-96">
+          <mxGeometry x="320" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vmsu6UBPR0Md5zAb4Nx8-112" value="Gate Actuator" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="vmsu6UBPR0Md5zAb4Nx8-96">
+          <mxGeometry x="380" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vmsu6UBPR0Md5zAb4Nx8-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="vmsu6UBPR0Md5zAb4Nx8-96" source="vmsu6UBPR0Md5zAb4Nx8-110" target="vmsu6UBPR0Md5zAb4Nx8-104">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vmsu6UBPR0Md5zAb4Nx8-110" value="Validation Reqiester" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="vmsu6UBPR0Md5zAb4Nx8-96">
+          <mxGeometry x="60" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vmsu6UBPR0Md5zAb4Nx8-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="vmsu6UBPR0Md5zAb4Nx8-96" source="vmsu6UBPR0Md5zAb4Nx8-113" target="vmsu6UBPR0Md5zAb4Nx8-110">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vmsu6UBPR0Md5zAb4Nx8-113" value="Gate Transponder Reader and Plate Scanner" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="vmsu6UBPR0Md5zAb4Nx8-96">
+          <mxGeometry y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vmsu6UBPR0Md5zAb4Nx8-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.075;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="vmsu6UBPR0Md5zAb4Nx8-96" source="vmsu6UBPR0Md5zAb4Nx8-104" target="vmsu6UBPR0Md5zAb4Nx8-109">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vmsu6UBPR0Md5zAb4Nx8-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;curved=1;" edge="1" parent="vmsu6UBPR0Md5zAb4Nx8-95" source="vmsu6UBPR0Md5zAb4Nx8-108" target="vmsu6UBPR0Md5zAb4Nx8-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vmsu6UBPR0Md5zAb4Nx8-108" value="AMQP Receiver" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="vmsu6UBPR0Md5zAb4Nx8-95">
+          <mxGeometry y="80" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
