@@ -229,8 +229,10 @@
         <mxCell id="dM4KhiI33vJd0EmOxdA6-22" value="Update Current Vehicle Counts" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="1475" y="280" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dM4KhiI33vJd0EmOxdA6-48" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;" parent="1" source="dM4KhiI33vJd0EmOxdA6-24" target="dM4KhiI33vJd0EmOxdA6-43" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="dM4KhiI33vJd0EmOxdA6-48" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;" parent="1" target="dM4KhiI33vJd0EmOxdA6-43" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1800" y="830" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="dM4KhiI33vJd0EmOxdA6-24" value="Officer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1805" y="790" width="30" height="60" as="geometry" />
@@ -244,8 +246,15 @@
         <mxCell id="dM4KhiI33vJd0EmOxdA6-27" value="Update Capacity Stats" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="1375" y="140" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bSTVENKfb5ki0dsixFxO-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="dM4KhiI33vJd0EmOxdA6-28" target="bSTVENKfb5ki0dsixFxO-44">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="bSTVENKfb5ki0dsixFxO-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" target="bSTVENKfb5ki0dsixFxO-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1530" y="-40" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1500" y="-40" />
+              <mxPoint x="1500" y="-80" />
+              <mxPoint x="1530" y="-80" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="dM4KhiI33vJd0EmOxdA6-28" value="Parking Manager" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1540" y="-70" width="30" height="60" as="geometry" />
@@ -362,11 +371,10 @@
         <mxCell id="bSTVENKfb5ki0dsixFxO-13" value="Bill/Charge for Permit and Fines" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="1145" y="-325" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bSTVENKfb5ki0dsixFxO-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="bSTVENKfb5ki0dsixFxO-14" target="bSTVENKfb5ki0dsixFxO-49">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="bSTVENKfb5ki0dsixFxO-14" value="Admin Staff" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1435" y="1070" width="30" height="60" as="geometry" />
+        <mxCell id="bSTVENKfb5ki0dsixFxO-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" target="bSTVENKfb5ki0dsixFxO-49">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1435" y="1090" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="bSTVENKfb5ki0dsixFxO-23" value="Check Reasons to Allow or Deny Exit" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="635" y="660" width="120" height="60" as="geometry" />
@@ -428,8 +436,10 @@
         <mxCell id="bSTVENKfb5ki0dsixFxO-50" value="Issue QR Voucher" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="1155" y="1090" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bSTVENKfb5ki0dsixFxO-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;" edge="1" parent="1" source="bSTVENKfb5ki0dsixFxO-50" target="bSTVENKfb5ki0dsixFxO-14">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="bSTVENKfb5ki0dsixFxO-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;" edge="1" parent="1" source="bSTVENKfb5ki0dsixFxO-50">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1435" y="1090" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="bSTVENKfb5ki0dsixFxO-55" value="ERP System" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1540" y="960" width="120" height="80" as="geometry" />
@@ -505,6 +515,9 @@
         </mxCell>
         <mxCell id="bSTVENKfb5ki0dsixFxO-89" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="75" y="-350" width="275" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="bSTVENKfb5ki0dsixFxO-92" value="Admin Staff" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="1060" width="30" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
