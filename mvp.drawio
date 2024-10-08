@@ -49,6 +49,9 @@
         <mxCell id="bSTVENKfb5ki0dsixFxO-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="dM4KhiI33vJd0EmOxdA6-17" target="bSTVENKfb5ki0dsixFxO-50">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="bSTVENKfb5ki0dsixFxO-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="dM4KhiI33vJd0EmOxdA6-17" target="bSTVENKfb5ki0dsixFxO-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="dM4KhiI33vJd0EmOxdA6-17" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="665" y="900" width="360" height="170" as="geometry" />
         </mxCell>
@@ -323,8 +326,8 @@
         <mxCell id="bSTVENKfb5ki0dsixFxO-1" value="Transponder/Vehicle linking to Permit" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="1275" y="-300" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bSTVENKfb5ki0dsixFxO-3" value="Allow/Deny Entry" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="565" y="250" width="120" height="60" as="geometry" />
+        <mxCell id="bSTVENKfb5ki0dsixFxO-3" value="Check Reasons to Allow/Deny Entry" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="565" y="270" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bSTVENKfb5ki0dsixFxO-4" value="Entry Denial Reason" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="175" y="160" width="120" height="60" as="geometry" />
@@ -356,7 +359,7 @@
         <mxCell id="bSTVENKfb5ki0dsixFxO-14" value="Admin Staff" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1435" y="1070" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bSTVENKfb5ki0dsixFxO-23" value="Allow or Deny Exit" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="bSTVENKfb5ki0dsixFxO-23" value="Check Reasons to Allow or Deny Exit" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="635" y="660" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bSTVENKfb5ki0dsixFxO-24" value="Process Payment" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
@@ -418,6 +421,15 @@
         </mxCell>
         <mxCell id="bSTVENKfb5ki0dsixFxO-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;" edge="1" parent="1" source="bSTVENKfb5ki0dsixFxO-50" target="bSTVENKfb5ki0dsixFxO-14">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bSTVENKfb5ki0dsixFxO-55" value="ERP System" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1540" y="960" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bSTVENKfb5ki0dsixFxO-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="bSTVENKfb5ki0dsixFxO-56" target="bSTVENKfb5ki0dsixFxO-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bSTVENKfb5ki0dsixFxO-56" value="Bill Department for QR Voucher" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="970" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
