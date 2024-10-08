@@ -22,17 +22,32 @@
         <mxCell id="vmsu6UBPR0Md5zAb4Nx8-38" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;Entry Control&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="vmsu6UBPR0Md5zAb4Nx8-41">
           <mxGeometry x="220" y="205" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="vmsu6UBPR0Md5zAb4Nx8-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="vmsu6UBPR0Md5zAb4Nx8-41" source="vmsu6UBPR0Md5zAb4Nx8-49" target="vmsu6UBPR0Md5zAb4Nx8-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="vmsu6UBPR0Md5zAb4Nx8-49" value="Gate Manager" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="vmsu6UBPR0Md5zAb4Nx8-41">
           <mxGeometry x="60" y="150" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vmsu6UBPR0Md5zAb4Nx8-48" value="Validation Requester" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="vmsu6UBPR0Md5zAb4Nx8-41">
-          <mxGeometry x="330" y="150" width="120" height="60" as="geometry" />
+          <mxGeometry x="320" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vmsu6UBPR0Md5zAb4Nx8-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="vmsu6UBPR0Md5zAb4Nx8-41" source="vmsu6UBPR0Md5zAb4Nx8-51" target="vmsu6UBPR0Md5zAb4Nx8-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vmsu6UBPR0Md5zAb4Nx8-51" value="Entry Manager" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="vmsu6UBPR0Md5zAb4Nx8-41">
+          <mxGeometry x="190" y="270" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="vmsu6UBPR0Md5zAb4Nx8-21" value="AMQP Client" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="vmsu6UBPR0Md5zAb4Nx8-13">
           <mxGeometry x="380" y="80" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="vmsu6UBPR0Md5zAb4Nx8-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="vmsu6UBPR0Md5zAb4Nx8-13" source="vmsu6UBPR0Md5zAb4Nx8-1" target="vmsu6UBPR0Md5zAb4Nx8-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="vmsu6UBPR0Md5zAb4Nx8-1" value="Gate Controller" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="vmsu6UBPR0Md5zAb4Nx8-13">
           <mxGeometry y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vmsu6UBPR0Md5zAb4Nx8-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="vmsu6UBPR0Md5zAb4Nx8-13" source="vmsu6UBPR0Md5zAb4Nx8-48" target="vmsu6UBPR0Md5zAb4Nx8-21">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vmsu6UBPR0Md5zAb4Nx8-17" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="1010" y="600" width="500" height="440" as="geometry" />
@@ -49,17 +64,32 @@
         <mxCell id="vmsu6UBPR0Md5zAb4Nx8-40" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;Permit System&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="vmsu6UBPR0Md5zAb4Nx8-42">
           <mxGeometry x="220" y="205" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="vmsu6UBPR0Md5zAb4Nx8-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="vmsu6UBPR0Md5zAb4Nx8-42" source="vmsu6UBPR0Md5zAb4Nx8-47" target="vmsu6UBPR0Md5zAb4Nx8-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="vmsu6UBPR0Md5zAb4Nx8-47" value="Permit Manager" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="vmsu6UBPR0Md5zAb4Nx8-42">
-          <mxGeometry x="50" y="150" width="120" height="60" as="geometry" />
+          <mxGeometry x="60" y="150" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vmsu6UBPR0Md5zAb4Nx8-50" value="Permit Persistence" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="vmsu6UBPR0Md5zAb4Nx8-42">
           <mxGeometry x="320" y="230" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="vmsu6UBPR0Md5zAb4Nx8-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="vmsu6UBPR0Md5zAb4Nx8-42" source="vmsu6UBPR0Md5zAb4Nx8-52" target="vmsu6UBPR0Md5zAb4Nx8-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vmsu6UBPR0Md5zAb4Nx8-52" value="Validation Manager" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="vmsu6UBPR0Md5zAb4Nx8-42">
+          <mxGeometry x="190" y="270" width="120" height="80" as="geometry" />
+        </mxCell>
         <mxCell id="vmsu6UBPR0Md5zAb4Nx8-25" value="Database ORM" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="vmsu6UBPR0Md5zAb4Nx8-17">
           <mxGeometry x="380" y="300" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="vmsu6UBPR0Md5zAb4Nx8-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="vmsu6UBPR0Md5zAb4Nx8-17" source="vmsu6UBPR0Md5zAb4Nx8-22" target="vmsu6UBPR0Md5zAb4Nx8-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="vmsu6UBPR0Md5zAb4Nx8-22" value="AMQP Receiver" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="vmsu6UBPR0Md5zAb4Nx8-17">
           <mxGeometry y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vmsu6UBPR0Md5zAb4Nx8-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="vmsu6UBPR0Md5zAb4Nx8-17" source="vmsu6UBPR0Md5zAb4Nx8-50" target="vmsu6UBPR0Md5zAb4Nx8-25">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vmsu6UBPR0Md5zAb4Nx8-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="vmsu6UBPR0Md5zAb4Nx8-20" target="vmsu6UBPR0Md5zAb4Nx8-1">
           <mxGeometry relative="1" as="geometry" />
@@ -103,7 +133,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="vmsu6UBPR0Md5zAb4Nx8-45" value="&lt;font style=&quot;font-size: 42px;&quot;&gt;Gate Access Permit Validation Process&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="640" y="1000" width="360" height="110" as="geometry" />
+          <mxGeometry x="650" y="910" width="360" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
