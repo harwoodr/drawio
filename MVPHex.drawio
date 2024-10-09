@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="vmsu6UBPR0Md5zAb4Nx8-29" value="RabbitMQ" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;direction=south;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="1025" y="270" width="470" height="180" as="geometry" />
+          <mxGeometry x="595" y="380" width="470" height="180" as="geometry" />
         </mxCell>
         <mxCell id="vmsu6UBPR0Md5zAb4Nx8-17" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="1010" y="600" width="500" height="440" as="geometry" />
@@ -56,13 +56,16 @@
           <mxGeometry x="1570" y="890" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="vmsu6UBPR0Md5zAb4Nx8-28" value="Validation &lt;br&gt;Request AMQP" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="1055" y="380" width="120" height="60" as="geometry" />
+          <mxGeometry x="770" y="390" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vmsu6UBPR0Md5zAb4Nx8-30" value="Validation&lt;br&gt; Response AMQP" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="1315" y="380" width="120" height="60" as="geometry" />
+        <mxCell id="Ysz22S0v8aRPz6q7rdMf-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="vmsu6UBPR0Md5zAb4Nx8-30" target="vmsu6UBPR0Md5zAb4Nx8-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vmsu6UBPR0Md5zAb4Nx8-30" value="Validation&lt;br&gt; Response AMQP&lt;br&gt;via RPC" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="770" y="490" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vmsu6UBPR0Md5zAb4Nx8-45" value="&lt;font style=&quot;font-size: 42px;&quot;&gt;Gate Access Permit Validation Process&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="650" y="910" width="360" height="110" as="geometry" />
+          <mxGeometry x="650" y="765" width="360" height="110" as="geometry" />
         </mxCell>
         <mxCell id="vmsu6UBPR0Md5zAb4Nx8-70" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="150" y="600" width="500" height="440" as="geometry" />
@@ -128,11 +131,22 @@
         <mxCell id="Ysz22S0v8aRPz6q7rdMf-8" value="Gate Controller" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="vmsu6UBPR0Md5zAb4Nx8-71">
           <mxGeometry x="320" y="230" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vmsu6UBPR0Md5zAb4Nx8-87" value="Gate Entry &lt;br&gt;Request AQMP" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="1075" y="280" width="120" height="60" as="geometry" />
+        <mxCell id="Ysz22S0v8aRPz6q7rdMf-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="vmsu6UBPR0Md5zAb4Nx8-85" target="vmsu6UBPR0Md5zAb4Nx8-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="420" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="vmsu6UBPR0Md5zAb4Nx8-88" value="Gate Entry &lt;br&gt;Response AQMP" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="1345" y="280" width="120" height="60" as="geometry" />
+        <mxCell id="Ysz22S0v8aRPz6q7rdMf-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="vmsu6UBPR0Md5zAb4Nx8-22" target="vmsu6UBPR0Md5zAb4Nx8-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1040" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ysz22S0v8aRPz6q7rdMf-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="vmsu6UBPR0Md5zAb4Nx8-28" target="vmsu6UBPR0Md5zAb4Nx8-22">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
