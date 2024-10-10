@@ -451,6 +451,15 @@
         <mxCell id="ZMv95iw1XXXhdrj3KUTM-148" value="Lot Capacity&lt;br&gt;Request AMQP &lt;br&gt;RPC" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="590" y="610" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="ZMv95iw1XXXhdrj3KUTM-293" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;curved=1;" edge="1" parent="1" source="ZMv95iw1XXXhdrj3KUTM-150" target="ZMv95iw1XXXhdrj3KUTM-54">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1080" y="690" />
+              <mxPoint x="-1080" y="-600" />
+              <mxPoint x="-200" y="-600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="ZMv95iw1XXXhdrj3KUTM-150" value="QR Code&lt;br&gt;Request AMQP &lt;br&gt;RPC" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="370" y="660" width="120" height="60" as="geometry" />
         </mxCell>
