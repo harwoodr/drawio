@@ -216,6 +216,9 @@
         <mxCell id="ZMv95iw1XXXhdrj3KUTM-162" value="Payment Gateway" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="ZMv95iw1XXXhdrj3KUTM-43">
           <mxGeometry x="230" y="420" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="ZMv95iw1XXXhdrj3KUTM-166" value="Web Server" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="ZMv95iw1XXXhdrj3KUTM-43">
+          <mxGeometry y="230" width="120" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="ZMv95iw1XXXhdrj3KUTM-52" value="Database ORM" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="ZMv95iw1XXXhdrj3KUTM-42">
           <mxGeometry x="380" y="300" width="120" height="60" as="geometry" />
         </mxCell>
