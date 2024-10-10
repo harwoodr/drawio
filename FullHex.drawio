@@ -181,10 +181,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZMv95iw1XXXhdrj3KUTM-42" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="-230" y="-600" width="500" height="440" as="geometry" />
+          <mxGeometry x="-230" y="-600" width="500" height="480" as="geometry" />
         </mxCell>
         <mxCell id="ZMv95iw1XXXhdrj3KUTM-43" value="" style="group" vertex="1" connectable="0" parent="ZMv95iw1XXXhdrj3KUTM-42">
-          <mxGeometry width="500" height="440" as="geometry" />
+          <mxGeometry width="500" height="480" as="geometry" />
         </mxCell>
         <mxCell id="ZMv95iw1XXXhdrj3KUTM-44" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=hexagon;perimeter=hexagonPerimeter2;arcSize=6;size=0.27;fillColor=none;" vertex="1" parent="ZMv95iw1XXXhdrj3KUTM-43">
           <mxGeometry width="500" height="440" as="geometry" />
@@ -209,6 +209,12 @@
         </mxCell>
         <mxCell id="ZMv95iw1XXXhdrj3KUTM-51" value="Visitor Session Manager" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="ZMv95iw1XXXhdrj3KUTM-43">
           <mxGeometry x="190" y="270" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMv95iw1XXXhdrj3KUTM-161" value="Payment Interface" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="ZMv95iw1XXXhdrj3KUTM-43">
+          <mxGeometry x="230" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMv95iw1XXXhdrj3KUTM-162" value="Payment Gateway" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="ZMv95iw1XXXhdrj3KUTM-43">
+          <mxGeometry x="230" y="420" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZMv95iw1XXXhdrj3KUTM-52" value="Database ORM" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="ZMv95iw1XXXhdrj3KUTM-42">
           <mxGeometry x="380" y="300" width="120" height="60" as="geometry" />
@@ -398,6 +404,9 @@
         </mxCell>
         <mxCell id="ZMv95iw1XXXhdrj3KUTM-160" value="Gate Display" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="-140" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMv95iw1XXXhdrj3KUTM-163" value="External&lt;br&gt;Payment&lt;br&gt;Processor" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry y="-120" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
