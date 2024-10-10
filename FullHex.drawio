@@ -397,12 +397,6 @@
         <mxCell id="ZMv95iw1XXXhdrj3KUTM-163" value="External&lt;br&gt;Payment&lt;br&gt;Processor" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="260" y="-210" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ZMv95iw1XXXhdrj3KUTM-170" value="QR Voucher&lt;br&gt;Request via&lt;br&gt;HTTP" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="-520" y="-400" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ZMv95iw1XXXhdrj3KUTM-171" value="QR Voucher&lt;br&gt;Response via&lt;br&gt;HTTP" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="-520" y="-320" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="ZMv95iw1XXXhdrj3KUTM-172" value="Institution ERP&lt;br&gt;System" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry y="-110" width="120" height="80" as="geometry" />
         </mxCell>
@@ -423,6 +417,45 @@
         </mxCell>
         <mxCell id="ZMv95iw1XXXhdrj3KUTM-197" value="Admin User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="-600" y="-370" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMv95iw1XXXhdrj3KUTM-199" value="Officer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="160" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMv95iw1XXXhdrj3KUTM-200" value="Add Infraction &lt;br&gt;Fine to Visitor&lt;br&gt;Session" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="850" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMv95iw1XXXhdrj3KUTM-202" value="Get Visitor &lt;br&gt;Session Cost " style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMv95iw1XXXhdrj3KUTM-203" value="QR Voucher Request" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.web_page;" vertex="1" parent="1">
+          <mxGeometry x="-510" y="-390" width="50" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMv95iw1XXXhdrj3KUTM-204" value="QR Voucher Response" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.web_page;" vertex="1" parent="1">
+          <mxGeometry x="-510" y="-310" width="50" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMv95iw1XXXhdrj3KUTM-207" value="Enter Infraction" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.web_page;" vertex="1" parent="1">
+          <mxGeometry x="1535" y="163" width="50" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMv95iw1XXXhdrj3KUTM-208" value="Parking Manager" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="157" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMv95iw1XXXhdrj3KUTM-209" value="Create/Update&lt;br&gt;Permit" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.web_page;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="70" width="50" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMv95iw1XXXhdrj3KUTM-210" value="View Dashboard" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.web_page;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="70" width="50" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMv95iw1XXXhdrj3KUTM-212" value="" style="shape=mxgraph.signs.transportation.car_4;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-740" y="214" width="98" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMv95iw1XXXhdrj3KUTM-213" value="" style="shape=mxgraph.signs.transportation.car_4;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-740" y="340" width="98" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMv95iw1XXXhdrj3KUTM-214" value="" style="shape=mxgraph.signs.transportation.car_4;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="820" width="98" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMv95iw1XXXhdrj3KUTM-215" value="" style="shape=mxgraph.signs.transportation.car_4;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="930" width="98" height="86" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
