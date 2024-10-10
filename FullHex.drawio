@@ -720,7 +720,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZMv95iw1XXXhdrj3KUTM-289" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="vmsu6UBPR0Md5zAb4Nx8-85" target="ZMv95iw1XXXhdrj3KUTM-150">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="775" />
+              <mxPoint x="510" y="775" />
+              <mxPoint x="510" y="690" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="ZMv95iw1XXXhdrj3KUTM-290" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="vmsu6UBPR0Md5zAb4Nx8-85" target="ZMv95iw1XXXhdrj3KUTM-247">
           <mxGeometry relative="1" as="geometry" />
