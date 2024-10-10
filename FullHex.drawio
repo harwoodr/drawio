@@ -643,6 +643,38 @@
         <mxCell id="ZMv95iw1XXXhdrj3KUTM-269" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.07;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="ZMv95iw1XXXhdrj3KUTM-162" target="ZMv95iw1XXXhdrj3KUTM-163">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="ZMv95iw1XXXhdrj3KUTM-276" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="ZMv95iw1XXXhdrj3KUTM-270" target="ZMv95iw1XXXhdrj3KUTM-272">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="690" y="1320" />
+              <mxPoint x="-310" y="1320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZMv95iw1XXXhdrj3KUTM-277" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="ZMv95iw1XXXhdrj3KUTM-270" target="ZMv95iw1XXXhdrj3KUTM-271">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="690" y="1350" />
+              <mxPoint x="-410" y="1350" />
+              <mxPoint x="-410" y="876" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZMv95iw1XXXhdrj3KUTM-270" value="Gate Display" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMv95iw1XXXhdrj3KUTM-271" value="&lt;div&gt;Entry Denial&lt;/div&gt;&lt;div&gt;Reason&lt;/div&gt;" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-370" y="846" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMv95iw1XXXhdrj3KUTM-272" value="Lot Full/Available Display" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-370" y="940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMv95iw1XXXhdrj3KUTM-274" value="" style="labelPosition=right;align=left;strokeWidth=1;shape=mxgraph.mockup.markup.curlyBrace;html=1;shadow=0;dashed=0;strokeColor=#999999;direction=north;" vertex="1" parent="1">
+          <mxGeometry x="280" y="940" width="20" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMv95iw1XXXhdrj3KUTM-275" value="" style="labelPosition=right;align=left;strokeWidth=1;shape=mxgraph.mockup.markup.curlyBrace;html=1;shadow=0;dashed=0;strokeColor=#999999;direction=north;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="820" width="20" height="200" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
