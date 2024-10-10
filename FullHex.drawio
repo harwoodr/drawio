@@ -270,6 +270,15 @@
         <mxCell id="ZMv95iw1XXXhdrj3KUTM-91" value="Exit Manager" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="ZMv95iw1XXXhdrj3KUTM-87">
           <mxGeometry x="190" y="270" width="120" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="ZMv95iw1XXXhdrj3KUTM-144" value="Gate Transponder and Plate Reader" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="ZMv95iw1XXXhdrj3KUTM-87">
+          <mxGeometry y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMv95iw1XXXhdrj3KUTM-145" value="Gate Communicator" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="ZMv95iw1XXXhdrj3KUTM-87">
+          <mxGeometry x="50" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMv95iw1XXXhdrj3KUTM-146" value="Gate Controller" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="ZMv95iw1XXXhdrj3KUTM-87">
+          <mxGeometry x="320" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="ZMv95iw1XXXhdrj3KUTM-92" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="1670" y="80" width="500" height="440" as="geometry" />
         </mxCell>
@@ -347,6 +356,9 @@
         </mxCell>
         <mxCell id="ZMv95iw1XXXhdrj3KUTM-143" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="ZMv95iw1XXXhdrj3KUTM-135" target="ZMv95iw1XXXhdrj3KUTM-136">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMv95iw1XXXhdrj3KUTM-147" value="Gate Actuator" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry y="270" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
