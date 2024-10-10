@@ -304,14 +304,23 @@
         <mxCell id="ZMv95iw1XXXhdrj3KUTM-182" value="AMQP Client" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="ZMv95iw1XXXhdrj3KUTM-93">
           <mxGeometry x="380" y="80" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="ZMv95iw1XXXhdrj3KUTM-219" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;curved=1;" edge="1" parent="ZMv95iw1XXXhdrj3KUTM-93" source="ZMv95iw1XXXhdrj3KUTM-183" target="ZMv95iw1XXXhdrj3KUTM-182">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ZMv95iw1XXXhdrj3KUTM-183" value="Statistics Communicator" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="ZMv95iw1XXXhdrj3KUTM-93">
           <mxGeometry x="320" y="145" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMv95iw1XXXhdrj3KUTM-218" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="ZMv95iw1XXXhdrj3KUTM-93" source="ZMv95iw1XXXhdrj3KUTM-184" target="ZMv95iw1XXXhdrj3KUTM-185">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZMv95iw1XXXhdrj3KUTM-184" value="Web Server" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="ZMv95iw1XXXhdrj3KUTM-93">
           <mxGeometry y="80" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZMv95iw1XXXhdrj3KUTM-185" value="Infraction Comunicator" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="ZMv95iw1XXXhdrj3KUTM-93">
           <mxGeometry x="60" y="145" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMv95iw1XXXhdrj3KUTM-220" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="ZMv95iw1XXXhdrj3KUTM-93" source="ZMv95iw1XXXhdrj3KUTM-186" target="ZMv95iw1XXXhdrj3KUTM-182">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZMv95iw1XXXhdrj3KUTM-186" value="Visitor System Fine Registration" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="ZMv95iw1XXXhdrj3KUTM-93">
           <mxGeometry x="250" y="80" width="120" height="60" as="geometry" />
@@ -421,17 +430,32 @@
         <mxCell id="ZMv95iw1XXXhdrj3KUTM-199" value="Officer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="1440" y="160" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ZMv95iw1XXXhdrj3KUTM-200" value="Add Infraction &lt;br&gt;Fine to Visitor&lt;br&gt;Session" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="850" y="150" width="120" height="60" as="geometry" />
+        <mxCell id="ZMv95iw1XXXhdrj3KUTM-225" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="ZMv95iw1XXXhdrj3KUTM-200" target="ZMv95iw1XXXhdrj3KUTM-54">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1480" y="60" />
+              <mxPoint x="-320" y="60" />
+              <mxPoint x="-320" y="-490" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="ZMv95iw1XXXhdrj3KUTM-202" value="Get Visitor &lt;br&gt;Session Cost " style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="ZMv95iw1XXXhdrj3KUTM-200" value="Add Infraction &lt;br&gt;Fine to Visitor&lt;br&gt;Session AMQP" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMv95iw1XXXhdrj3KUTM-202" value="Get Visitor &lt;br&gt;Session Cost&lt;br&gt;AMQP RPC" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="520" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMv95iw1XXXhdrj3KUTM-226" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="ZMv95iw1XXXhdrj3KUTM-203" target="ZMv95iw1XXXhdrj3KUTM-166">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZMv95iw1XXXhdrj3KUTM-203" value="QR Voucher Request" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.web_page;" vertex="1" parent="1">
           <mxGeometry x="-510" y="-390" width="50" height="54" as="geometry" />
         </mxCell>
         <mxCell id="ZMv95iw1XXXhdrj3KUTM-204" value="QR Voucher Response" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.web_page;" vertex="1" parent="1">
           <mxGeometry x="-510" y="-310" width="50" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMv95iw1XXXhdrj3KUTM-228" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="ZMv95iw1XXXhdrj3KUTM-207" target="ZMv95iw1XXXhdrj3KUTM-184">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZMv95iw1XXXhdrj3KUTM-207" value="Enter Infraction" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.web_page;" vertex="1" parent="1">
           <mxGeometry x="1535" y="163" width="50" height="54" as="geometry" />
@@ -451,11 +475,58 @@
         <mxCell id="ZMv95iw1XXXhdrj3KUTM-213" value="" style="shape=mxgraph.signs.transportation.car_4;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
           <mxGeometry x="-740" y="340" width="98" height="86" as="geometry" />
         </mxCell>
-        <mxCell id="ZMv95iw1XXXhdrj3KUTM-214" value="" style="shape=mxgraph.signs.transportation.car_4;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
+        <mxCell id="ZMv95iw1XXXhdrj3KUTM-214" value="Permit Holder" style="shape=mxgraph.signs.transportation.car_4;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
           <mxGeometry x="-190" y="820" width="98" height="86" as="geometry" />
         </mxCell>
-        <mxCell id="ZMv95iw1XXXhdrj3KUTM-215" value="" style="shape=mxgraph.signs.transportation.car_4;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
+        <mxCell id="ZMv95iw1XXXhdrj3KUTM-215" value="Visitor" style="shape=mxgraph.signs.transportation.car_4;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
           <mxGeometry x="-190" y="930" width="98" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMv95iw1XXXhdrj3KUTM-222" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="ZMv95iw1XXXhdrj3KUTM-217" target="ZMv95iw1XXXhdrj3KUTM-178">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMv95iw1XXXhdrj3KUTM-217" value="Infraction Data Update AMQP" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1500" y="-140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMv95iw1XXXhdrj3KUTM-221" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="ZMv95iw1XXXhdrj3KUTM-182" target="ZMv95iw1XXXhdrj3KUTM-217">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMv95iw1XXXhdrj3KUTM-223" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="ZMv95iw1XXXhdrj3KUTM-182" target="ZMv95iw1XXXhdrj3KUTM-200">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2110" y="40" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZMv95iw1XXXhdrj3KUTM-227" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;curved=1;" edge="1" parent="1" source="ZMv95iw1XXXhdrj3KUTM-166" target="ZMv95iw1XXXhdrj3KUTM-204">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMv95iw1XXXhdrj3KUTM-231" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="ZMv95iw1XXXhdrj3KUTM-229" target="vmsu6UBPR0Md5zAb4Nx8-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMv95iw1XXXhdrj3KUTM-229" value="Add Infraction &lt;br&gt;Fine to Permit&lt;br&gt;AMQP" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="2040" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMv95iw1XXXhdrj3KUTM-230" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="ZMv95iw1XXXhdrj3KUTM-182" target="ZMv95iw1XXXhdrj3KUTM-229">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2190" y="190" />
+              <mxPoint x="2190" y="395" />
+              <mxPoint x="2270" y="395" />
+              <mxPoint x="2270" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZMv95iw1XXXhdrj3KUTM-238" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="ZMv95iw1XXXhdrj3KUTM-234" target="Ysz22S0v8aRPz6q7rdMf-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMv95iw1XXXhdrj3KUTM-234" value="Transponder &lt;br&gt;and License &lt;br&gt;Plate Scan" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMv95iw1XXXhdrj3KUTM-236" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="ZMv95iw1XXXhdrj3KUTM-235" target="Ysz22S0v8aRPz6q7rdMf-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZMv95iw1XXXhdrj3KUTM-235" value="License &lt;br&gt;Plate Scan" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="920" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
