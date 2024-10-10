@@ -472,10 +472,10 @@
         <mxCell id="ZMv95iw1XXXhdrj3KUTM-210" value="View Dashboard" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.web_page;" vertex="1" parent="1">
           <mxGeometry x="1290" y="70" width="50" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="ZMv95iw1XXXhdrj3KUTM-212" value="" style="shape=mxgraph.signs.transportation.car_4;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
+        <mxCell id="ZMv95iw1XXXhdrj3KUTM-212" value="Permit Holder" style="shape=mxgraph.signs.transportation.car_4;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
           <mxGeometry x="-770" y="144" width="98" height="86" as="geometry" />
         </mxCell>
-        <mxCell id="ZMv95iw1XXXhdrj3KUTM-213" value="" style="shape=mxgraph.signs.transportation.car_4;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
+        <mxCell id="ZMv95iw1XXXhdrj3KUTM-213" value="Visitor" style="shape=mxgraph.signs.transportation.car_4;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
           <mxGeometry x="-770" y="340" width="98" height="86" as="geometry" />
         </mxCell>
         <mxCell id="ZMv95iw1XXXhdrj3KUTM-214" value="Permit Holder" style="shape=mxgraph.signs.transportation.car_4;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
