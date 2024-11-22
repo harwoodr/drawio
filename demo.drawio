@@ -1,9 +1,60 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:132.0) Gecko/20100101 Firefox/132.0" version="24.8.6">
   <diagram name="Page-1" id="je-kw74RJZGWPr6j5ght">
-    <mxGraphModel>
+    <mxGraphModel dx="1274" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="IL0aLkrp6EwRMWT_6a9E-10" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="60" y="80" width="300" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="IL0aLkrp6EwRMWT_6a9E-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="IL0aLkrp6EwRMWT_6a9E-10">
+          <mxGeometry width="300" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="IL0aLkrp6EwRMWT_6a9E-4" value="Plate Reader" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="IL0aLkrp6EwRMWT_6a9E-10">
+          <mxGeometry x="20" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IL0aLkrp6EwRMWT_6a9E-5" value="Transponder Reader" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="IL0aLkrp6EwRMWT_6a9E-10">
+          <mxGeometry x="20" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IL0aLkrp6EwRMWT_6a9E-6" value="Gate Actuator" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="IL0aLkrp6EwRMWT_6a9E-10">
+          <mxGeometry x="160" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IL0aLkrp6EwRMWT_6a9E-8" value="Ticket Printer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="IL0aLkrp6EwRMWT_6a9E-10">
+          <mxGeometry x="160" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IL0aLkrp6EwRMWT_6a9E-9" value="Display Screen" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="IL0aLkrp6EwRMWT_6a9E-10">
+          <mxGeometry x="160" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IL0aLkrp6EwRMWT_6a9E-27" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="60" y="410" width="300" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="IL0aLkrp6EwRMWT_6a9E-19" value="" style="rounded=1;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="IL0aLkrp6EwRMWT_6a9E-27">
+          <mxGeometry width="300" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="IL0aLkrp6EwRMWT_6a9E-20" value="Plate Reader" style="rounded=0;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="IL0aLkrp6EwRMWT_6a9E-27">
+          <mxGeometry x="20" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IL0aLkrp6EwRMWT_6a9E-21" value="Transponder Reader" style="rounded=0;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="IL0aLkrp6EwRMWT_6a9E-27">
+          <mxGeometry x="20" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IL0aLkrp6EwRMWT_6a9E-22" value="Gate Actuator" style="rounded=0;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="IL0aLkrp6EwRMWT_6a9E-27">
+          <mxGeometry x="160" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IL0aLkrp6EwRMWT_6a9E-24" value="Display Screen" style="rounded=0;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="IL0aLkrp6EwRMWT_6a9E-27">
+          <mxGeometry x="160" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IL0aLkrp6EwRMWT_6a9E-25" value="QR Reader" style="rounded=0;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="IL0aLkrp6EwRMWT_6a9E-27">
+          <mxGeometry x="160" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IL0aLkrp6EwRMWT_6a9E-26" value="Payment Card&lt;br&gt;Tap/Reader" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="IL0aLkrp6EwRMWT_6a9E-27">
+          <mxGeometry x="20" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IL0aLkrp6EwRMWT_6a9E-28" value="Entry Gate" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="160" y="40" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IL0aLkrp6EwRMWT_6a9E-29" value="Exit Gate" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="160" y="370" width="100" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
